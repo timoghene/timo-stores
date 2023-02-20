@@ -1,0 +1,284 @@
+
+body{
+    font-family: 'Mouse Memoirs', sans-serif;
+background-color: white;
+}
+
+h4{
+    color:gold;
+
+}
+h5{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+h6{
+    text-decoration: line-through;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+p{
+    margin-bottom: 0;
+}
+
+.head-img{
+    width:15%;
+}
+/* header */
+#header{
+    background-color: #66BFBF;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 30px;
+    color:white;
+}
+.edit{
+    font-size: 30px;
+}
+.edit-a{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #66BFBF;
+}
+.edit-b{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.nav-link{
+    font-size: 30px;
+    color:white;
+    
+}
+.custom{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header-text{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.header-sub-text{ 
+    font-size: larger;
+    font-weight: bolder;
+}
+.btn-timo{
+    padding:5px;
+}
+.btn-timo:hover{
+    color: black;
+}
+/* products display */
+#clothes{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color:black;
+}
+.clothes-img{
+    width: 150px;
+    margin-bottom:1rem;  
+    margin:10px; 
+    border-radius: 10px;
+}
+.clothes-img-a{
+    width: 200px;
+    margin-bottom:1rem;  
+    margin:10px; 
+    border-radius: 10px;
+}
+
+.clothes-img-b{
+    width: 40px;
+    height:55px;
+    margin-bottom:1rem;  
+    margin:10px; 
+    border-radius: 10px;
+}
+.clothes-div{
+    padding:7% 15%;
+}
+.buy-img{
+    width:20px;
+}
+.buy-button{
+    margin-bottom: 35px;
+}
+ /* boots section */
+ #boots{
+    border-top: 2px solid black;
+    padding:7% 15%;
+    text-align: center;
+    color:black;
+    
+}
+
+.shop-item{
+    margin: 30px;
+
+}
+.shop-item-title{
+    display:block;
+    width:100%;
+    text-align:center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.shop-item-image{
+    height: 250px;
+
+}
+.shop-item-details{
+    display:flex;
+    align-items:center;
+    padding:5px;
+}
+.shop-item-price{
+    flex-grow:1;
+}
+.shop-items{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.section-header{
+   text-align: center;
+}
+    
+#Sneakers{
+    border-top: 2px solid #555;
+    padding:7% 15%;
+    text-align: center;
+    color:black;
+}
+
+#shoes{   
+    border-top: 2px solid #555;
+    padding:7% 15%;
+    text-align: center;
+    color:black;
+
+}
+
+#Games{
+    border-top: 2px solid #555;
+    padding:7% 15%;
+    text-align: center;
+    color:black;
+    
+}
+
+#cart{
+    border-top: 2px solid #555;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color:black;
+    border-bottom: 20px solid #66BFBF;;
+}
+
+#extras{
+    color:black;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-top: 10px solid black;
+    border-bottom: 20px solid black;
+ }
+ .extra-text{
+    color:black;
+     font-size: larger;
+     font-weight: bolder;
+     font-size: 2.0rem;
+ }
+ .response-section{
+     color:black;
+ }
+
+ .cart-header{
+    font-weight:bold;
+    font-size:  20px; ;
+    color:#333;
+ }
+ 
+ .cart-column{
+    border-bottom:1px solid black;
+    margin-right: 10px;
+    padding-bottom: 10px;
+ }
+
+ .cart-row{
+    display:flex;
+ }
+
+ .cart-item{
+    width:45%;
+ }
+
+ .cart-price{
+    width:20%;
+    font-size: 25px;
+ }
+
+ .cart-quantity{
+    width:35%;
+ }
+
+ .cart-item-title{
+    font-size: 25px;
+ }
+
+ .btn-danger{
+    color:white;
+    background-color:red ;
+    font-size: 20px;
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+ }
+ .btn-danger:hover{
+    background-color: #CC4C4C;
+ }
+ .cart-quantity-input{
+    width:50px;
+    border-radius: 5px;
+    border:1px solid #56CCF2;
+    background-color: white;
+    padding:0;
+    text-align:center;
+    font-size: 25px;
+    margin-right: 10px;
+ }
+
+ .cart-total{
+    text-align: end;
+ }
+
+ .cart-total-title{
+    font-weight: bold;
+    font-size: 30px;
+    color:black;
+    margin-right: 20px;
+ }
+
+ .cart-total-price{
+    color:black;
+    font-size: 25px;
+ }
+
+ .btn-purchase{
+    font-size: 35px;
+ }
+
+ .btn-purchase:hover{
+    background-color: darkgreen;
+ }
